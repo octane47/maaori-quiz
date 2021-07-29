@@ -1,6 +1,5 @@
 
 
-
 #functions go here
 score = 0
 score =int(score)
@@ -32,16 +31,16 @@ print ("B. aroha ")
 print ("C. kia ara")
 print ('')
 #answering the question and checking it
-Q1answer = "a"
+Q1answer = "a" or ""
 Q1response= input('Your answer : ')
 
-if (Q1response != Q1answer):
-    print ('Sorry, that is incorrect!')
-else:
+if (Q1response == Q1answer):
     print ('Well done! ' + Q1response + ' is correct!')
     score = score + 1
+else:
+    print("unlucky, that is incorrect")
 
-print ('Your current score is ' + str(score) + ' out of 10')
+print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
 
@@ -63,7 +62,7 @@ print ("B. tena koutou")
 print ("C. tena koe")
 print ('')
 
-Q1answer = "c"
+Q1answer = "c" or "tena koe"
 Q1response= input('Your answer : ')
 
 if (Q1response != Q1answer):
@@ -72,7 +71,7 @@ else:
     print ('Well done! ' + Q1response + ' is correct!')
     score = score + 1
 
-print ('Your current score is ' + str(score) + ' out of 10')
+print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
 
@@ -105,7 +104,7 @@ else:
     print ('Well done! ' + Q1response + ' is correct!')
     score = score + 1
 
-print ('Your current score is ' + str(score) + ' out of 10')
+print ('Your current score is ' + str(score) + ' out of 15')
 #empty prints are for spacing in the code so it doesn't look jumbled up
 print (" ")
 print (" ")
@@ -138,7 +137,7 @@ else:
     print ('Well done! ' + Q1response + ' is correct!')
     score = score + 1
 
-print ('Your current score is ' + str(score) + ' out of 10')
+print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
 
@@ -170,7 +169,7 @@ else:
     print ('Well done! ' + Q1response + ' is correct!')
     score = score + 1
 
-print ('Your current score is ' + str(score) + ' out of 10')
+print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
 
@@ -202,7 +201,7 @@ else:
     print ('Well done! ' + Q1response + ' is correct!')
     score = score + 1
 
-print ('Your current score is ' + str(score) + ' out of 10')
+print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
 
@@ -220,9 +219,9 @@ print (greeting)
 print (top_bottom)
 
 print (" i need a rakau pumahara. what is a rakau pumahara? ")
-print ("A. ")
-print ("B. ")
-print ("C. ")
+print ("A. usb stick ")
+print ("B. smartphone")
+print ("C. computer settings")
 print ('')
 
 Q1answer = "a"
@@ -234,7 +233,7 @@ else:
     print ('Well done! ' + Q1response + ' is correct!')
     score = score + 1
 
-print ('Your current score is ' + str(score) + ' out of 10')
+print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
 
