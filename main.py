@@ -7,7 +7,7 @@ score =int(score)
 #main routine goes here
 name = str(input("whats your name "))
 print("kia ora ", name )
-print("welcome to your annual maaori quiz within the following questions we will test your knowledge of the maaori language, goodluck and have fun remember its also a game so dont worry to much ")
+print("welcome to your annual maaori quiz within the following questions we will test your knowledge of the maaori language ")
 print (" ")
 print (" ")
 
@@ -31,8 +31,8 @@ print ("B. aroha ")
 print ("C. kia ara")
 print ('')
 #answering the question and checking it
-Q1answer = "a" or ""
-Q1response= input('Your answer : ')
+Q1answer = "a" 
+Q1response= input('Your answer : ').lower()
 
 if (Q1response == Q1answer):
     print ('Well done! ' + Q1response + ' is correct!')
@@ -62,8 +62,8 @@ print ("B. tena koutou")
 print ("C. tena koe")
 print ('')
 
-Q1answer = "c" or "tena koe"
-Q1response= input('Your answer : ')
+Q1answer = "c"
+Q1response= input('Your answer : ').lower()
 
 if (Q1response != Q1answer):
     print ('Sorry, that is incorrect!')
@@ -96,10 +96,10 @@ print ("C. tena koe")
 print ('')
 
 Q1answer = "a"
-Q1response= input('Your answer : ')
+Q1response= input('Your answer : ').lower()
 
 if (Q1response != Q1answer):
-    print ('Sorry, that is incorrect!')
+    print ("Sorry, that is incorrect!")
 else:
     print ('Well done! ' + Q1response + ' is correct!')
     score = score + 1
@@ -129,7 +129,7 @@ print ("C. sleep ")
 print ('')
 
 Q1answer = "b"
-Q1response= input('Your answer : ')
+Q1response= input('Your answer : ').lower()
 
 if (Q1response != Q1answer):
     print ('Sorry, that is incorrect!')
@@ -161,7 +161,7 @@ print ("C. ankle ")
 print ('')
 
 Q1answer = "b"
-Q1response= input('Your answer : ')
+Q1response= input('Your answer : ').lower()
 
 if (Q1response != Q1answer):
     print ('Sorry, that is incorrect!')
@@ -193,7 +193,7 @@ print ("C. the maaori name for ankle")
 print ('')
 
 Q1answer = "a"
-Q1response= input('Your answer : ')
+Q1response= input('Your answer : ').lower()
 
 if (Q1response != Q1answer):
     print ('Sorry, that is incorrect!')
@@ -225,7 +225,7 @@ print ("C. computer settings")
 print ('')
 
 Q1answer = "a"
-Q1response= input('Your answer : ')
+Q1response= input('Your answer : ').lower()
 
 if (Q1response != Q1answer):
     print ('Sorry, that is incorrect!')
@@ -236,6 +236,106 @@ else:
 print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
+
+##############################################
+############### question 8 ###################
+##############################################
+
+
+greeting= "QUESTION 8"
+sides = "!!!!" * 3
+greeting = "{} {} {}". format(sides, greeting, sides)
+top_bottom = "*" * len(greeting)
+print (top_bottom)
+print (greeting)
+print (top_bottom)
+
+print (" taihoa means... ")
+print ("A. help ")
+print ("B. code ")
+print ("C. delay ")
+print ('')
+
+Q1answer = "c"
+Q1response= input('Your answer : ').lower()
+
+if (Q1response != Q1answer):
+    print ('Sorry, that is incorrect!')
+else:
+    print ('Well done! ' + Q1response + ' is correct!')
+    score = score + 1
+
+print ('Your current score is ' + str(score) + ' out of 15')
+print (" ")
+print (" ")
+
+##############################################
+############### question 9 ###################
+##############################################
+
+
+greeting= "QUESTION 9"
+sides = "!!!!" * 3
+greeting = "{} {} {}". format(sides, greeting, sides)
+top_bottom = "*" * len(greeting)
+print (top_bottom)
+print (greeting)
+print (top_bottom)
+
+print (" awa ")
+print ("A. current  ")
+print ("B. river ")
+print ("C. stream ")
+print ('')
+
+Q1answer = "b"
+Q1response= input('Your answer : ').lower()
+
+if (Q1response != Q1answer):
+    print ('Sorry, that is incorrect!')
+else:
+    print ('Well done! ' + Q1response + ' is correct!')
+    score = score + 1
+
+print ('Your current score is ' + str(score) + ' out of 15')
+print (" ")
+print (" ")
+
+##############################################
+############### question 10 ###################
+##############################################
+
+
+greeting= "QUESTION 10"
+sides = "!!!!" * 3
+greeting = "{} {} {}". format(sides, greeting, sides)
+top_bottom = "*" * len(greeting)
+print (top_bottom)
+print (greeting)
+print (top_bottom)
+
+print (" He tī māu?")
+print ("A. would you like a tea? ")
+print ("B. Would you like a water? ")
+print ("C. Yes, one moment please ")
+print ('')
+
+Q1answer = "a"
+Q1response= input('Your answer : ').lower()
+
+if (Q1response != Q1answer):
+    print ('Sorry, that is incorrect!')
+else:
+    print ('Well done! ' + Q1response + ' is correct!')
+    score = score + 1
+
+print ('Your current score is ' + str(score) + ' out of 15')
+print (" ")
+print (" ")
+
+
+
+
 
 
 
