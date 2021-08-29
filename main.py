@@ -1,10 +1,12 @@
 
-
 #functions go here
+
+from random import shuffle
 score = 0
 score =int(score)
 
 #main routine goes here
+
 name = str(input("whats your name "))
 print("kia ora ", name )
 print("welcome to your annual maaori quiz within the following questions we will test your knowledge of the maaori language ")
@@ -332,7 +334,6 @@ else:
 print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
-
 
 
 
