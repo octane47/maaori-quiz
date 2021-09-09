@@ -17,31 +17,46 @@ print (" ")
 ############### question 1 ###################
 ##############################################
 
-#This code will decorate the title "question 1" allowing it to look nice and professional
+#This code will decorate the title "question 1" allowing it to look nice and and set it apart from the rest of the code
+#thesee 4 lines program the computer to ...
 greeting= "QUESTION 1"
+#greeting = 'question 1' is the heading in the middle in which the next few codes surround
 sides = "!!!!" * 3
+#position = (item) * amount this is side and i used ! to decorate and i want it to repeate 4 times
 greeting = "{} {} {}". format(sides, greeting, sides)
 top_bottom = "*" * len(greeting)
+#postition = item * len(greeting)
 print (top_bottom)
 print (greeting)
 print (top_bottom)
 
 #asking the question
+#print(" text ")
+#print ("question")
 print ("how do you say hello in maaori")
+#answers to the question but only one is right
 print ("A. kia ora ")
 print ("B. aroha ")
 print ("C. kia ara")
 print ('')
 #answering the question and checking it
+#q1answer = answer to question
+#in this question the correct answer is a, kia ora as it is how you say hello in maaori
 Q1answer = "a" 
+#this line allows the answer or letter to be typed ineither uppercase or lowercase and it will still count as right
 Q1response= input('Your answer : ').lower()
 
+#if else statement to continue from the question and see the reaction to what they have answered
+#if response = answer it is to be counted as correct
 if (Q1response == Q1answer):
+  #again print text programming the computer to type something
     print ('Well done! ' + Q1response + ' is correct!')
+    #score keeps up with the score +1 for every correct question
     score = score + 1
 else:
+  #if response doesn't = to answer then print. "unlucky that is incorrect" and continue
     print("unlucky, that is incorrect")
-
+#displays how much questin you have gotten right
 print ('Your current score is ' + str(score) + ' out of 15')
 print (" ")
 print (" ")
