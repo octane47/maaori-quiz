@@ -352,6 +352,134 @@ print (" ")
 
 
 
+##############################################
+############### question 11 ###################
+##############################################
 
 
+greeting= "QUESTION 11"
+sides = "!!!!" * 3
+greeting = "{} {} {}". format(sides, greeting, sides)
+top_bottom = "*" * len(greeting)
+print (top_bottom)
+print (greeting)
+print (top_bottom)
+
+print (" pai, what does pai mean?")
+print ("A. ok ")
+print ("B. okay ")
+print ("C. aye ")
+print ('')
+
+Q1answer = "a"
+Q1response= input('Your answer : ').lower()
+
+if (Q1response != Q1answer):
+    print ('Sorry, that is incorrect!')
+else:
+    print ('Well done! ' + Q1response + ' is correct!')
+    score = score + 1
+
+print ('Your current score is ' + str(score) + ' out of 15')
+print (" ")
+print (" ")
+
+
+##############################################
+############### question 12 ###################
+##############################################
+
+
+greeting= "QUESTION 12"
+sides = "!!!!" * 3
+greeting = "{} {} {}". format(sides, greeting, sides)
+top_bottom = "*" * len(greeting)
+print (top_bottom)
+print (greeting)
+print (top_bottom)
+
+print (" He tī māu?")
+print ("A. would you like a tea? ")
+print ("B. Would you like a water? ")
+print ("C. Yes, one moment please ")
+print ('')
+
+Q1answer = "a"
+Q1response= input('Your answer : ').lower()
+
+if (Q1response != Q1answer):
+    print ('Sorry, that is incorrect!')
+else:
+    print ('Well done! ' + Q1response + ' is correct!')
+    score = score + 1
+
+print ('Your current score is ' + str(score) + ' out of 15')
+print (" ")
+print (" ")
+
+
+##############################################
+############### question 14 ###################
+##############################################
+
+
+greeting= "QUESTION 14"
+sides = "!!!!" * 3
+greeting = "{} {} {}". format(sides, greeting, sides)
+top_bottom = "*" * len(greeting)
+print (top_bottom)
+print (greeting)
+print (top_bottom)
+
+print (" hey kei te pēhea koe?")
+print ("A. hey, what you doing")
+print ("B. hey how are you? ")
+print ("C. hey how is it going ")
+print ('')
+
+Q1answer = "b"
+Q1response= input('Your answer : ').lower()
+
+if (Q1response != Q1answer):
+    print ('Sorry, that is incorrect!')
+else:
+    print ('Well done! ' + Q1response + ' is correct!')
+    score = score + 1
+
+print ('Your current score is ' + str(score) + ' out of 15')
+print (" ")
+print (" ")
+
+
+##############################################
+############### question 15 ###################
+##############################################
+
+
+greeting= "QUESTION 15"
+sides = "!!!!" * 3
+greeting = "{} {} {}". format(sides, greeting, sides)
+top_bottom = "*" * len(greeting)
+print (top_bottom)
+print (greeting)
+print (top_bottom)
+
+print (" kotahi wa koa")
+print ("A. one sad place ")
+print ("B. one time man ")
+print ("C. one,happy time ")
+print ('')
+
+Q1answer = "c"
+Q1response= input('Your answer : ').lower()
+
+if (Q1response != Q1answer):
+    print ('Sorry, that is incorrect!')
+else:
+    print ('Well done! ' + Q1response + ' is correct!')
+    score = score + 1
+
+print ('Your current score is ' + str(score) + ' out of 15')
+print (" ")
+print (" ")
 
